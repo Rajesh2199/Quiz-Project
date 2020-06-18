@@ -1,0 +1,105 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:silver;
+    font-size: 30px;
+}
+
+
+body {
+    padding: o;
+    margin : 0 ;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    display:flex; 
+    font-size: 30px;
+}
+
+.header{
+    height: 50px;
+    top:10px;
+    display: flex;
+    position:absolute;
+    align-items:center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.container{
+    widows: 800px ;
+}
+    
+
+.button  {
+    border:15px 20px 15px 20px;
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 5px;
+    background-color: lightblue;
+    
+}
+
+.button:hover{
+    font-size: 35%;
+}
+
+
+
+.start-btn{
+    border:10px 20px ;
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    margin:5px;
+    background-color:lightblue;
+    
+}
+
+.start-btn:hover{
+    transform: skew(-10deg);
+}
+
+.next-btn{
+    border:2px 20px;
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    margin: 5px;
+    background-color:lightblue;
+}
+
+.next-btn:hover{
+    transform: skew(-10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-grid {
+    font-size:100px;
+    display: grid;
+    gap:15px;
+    margin: 20px;
+   
+}
+
+
+
+.btn-grid:hover {
+    border-color: lightblue;
+}
