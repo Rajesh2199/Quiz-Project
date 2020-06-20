@@ -1,107 +1,73 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:silver;
-    font-size: 30px;
-}
-
-
-body {
-    padding: o;
-    margin : 0 ;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    height: 100vh;
-    display:flex; 
-    font-size: 30px;
-}
-h1{
-    text-align:center;
-    top:0px;
-   
-    position: absolute;
-  
+body{
     font-family: 'Times New Roman', Times, serif;
-    padding: 40px;
-
-    
-    
+    background: lightgray;
 }
-
 
 .container{
-    widows: 800px ;
-}
-    
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: lightskyblue;
+    transform: translateX(-50%) translateY(-50%);
+    padding:20px;
+    border:1px;
 
-.button  {
-    border:15px 20px 15px 20px;
-    padding: 10px 20px;
-    border-radius: 20px 0px 20px 0px;
-    font-family: monospace;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.question {
+    padding:20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0;
+}
+
+.option{
+    padding:15px 0 15px 15px;
+    margin: 10px 0 10px 10px;
+    width: 500px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.option:hover{
+    background: gray;
+    color: lightcyan
+}
+
+
+.next-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
     cursor: pointer;
-    margin: 5px;
-    background-color: lightblue;
+    float:right;
+    margin: 10px;
+
+}
+
+.next-btn:hover {
+    background: blanchedalmond;
     
 }
 
-.button:hover{
-    font-size: 35%;
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
 }
 
 
-
-.start-btn{
-    border:10px 20px ;
-    padding: 10px 20px;
-    border-radius: 20px 0px 20px 0px;
-    cursor: pointer;
-    margin:5px;
-    background-color:lightblue;
-    
-}
-
-.start-btn:hover{
-    transform: skew(-10deg);
-}
-
-.next-btn{
-    border:2px 20px;
-    padding: 10px 20px;
-    border-radius: 20px 0px 20px 0px;
-    cursor: pointer;
-    margin: 5px;
-    background-color:lightblue;
-}
-
-.next-btn:hover{
-    transform: skew(-10deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn-grid {
-    font-size:100px;
-    display: grid;
-    gap:15px;
-    margin: 20px;
-   
-}
-
-
-
-.btn-grid:hover {
-    border-color: lightblue;
+.options input:checked.option {
+    background: blanchedalmond;
+    color:lightcyan ;
 }
