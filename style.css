@@ -23,6 +23,29 @@ body{
 
 }
 
+.timer {
+    text-align: center;
+}
+
+.sample{
+    margin: 50px;
+    padding:30px;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 30px;
+    
+    
+   
+    
+}
+
+.sample:hover {
+    color: red;
+}
+
+
+
+
 .question {
     padding:20px;
     font-size: 20px;

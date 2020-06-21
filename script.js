@@ -11,6 +11,13 @@ var opt4 = document.getElementById('opt4');
 var nextButton = document.getElementById('nextButton');
 var resultCont = document.getElementById('result');
 
+
+
+
+
+
+
+
 function loadQuestion(questionIndex){
     var q = questions[questionIndex];
     questionEl.textContent =(questionIndex + 1)+ '.' + q.question;
