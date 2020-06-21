@@ -3,4 +3,10 @@ The application required extensive use of object oriented programming concepts a
 
 This quiz application consists of five  questions that are related to JavaScript. Each question has four options to choose from and the user must choose an option before moving forward to the next question. At the end of the quiz, the application will give the use how my questions are answered correctly.
 
-You can get a preview of the application below.
+Here is the link to deployed aplication: https://rajesh2199.github.io/Quiz-Project/
+
+Finally,
+You can get a preview of the application below:
+
+<img width="2048" alt="Screen Shot 2020-06-20 at 9 25 31 PM" src="https://user-images.githubusercontent.com/61152071/85216011-fc44d300-b33c-11ea-9e41-8b26e5eb035b.png">
+
