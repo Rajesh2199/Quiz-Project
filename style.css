@@ -23,21 +23,19 @@ body{
 
 }
 
-.timer {
-    text-align: center;
-}
-
 .sample{
     margin: 50px;
     padding:30px;
     border-radius: 20px;
     font-style: italic;
-    font-size: 30px;
-    
-    
-   
-    
+    font-size: 30px;   
 }
+
+.timer {
+    text-align: center;
+    margin: auto;
+}
+
 
 .sample:hover {
     color: red;
@@ -94,3 +92,25 @@ body{
     background: blanchedalmond;
     color:lightcyan ;
 }
+
+
+#submit {
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    bottom: 250px;
+    position: absolute;
+    
+}
+
+#highscore {
+    margin:0 auto;
+    padding:5px;
+    position: absolute;
+    bottom:300px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+

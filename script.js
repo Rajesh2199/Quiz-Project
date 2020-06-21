@@ -40,17 +40,27 @@ function loadNextQuestion () {
     selectedOption.checked = false;
     currentQuestion++;
     if(currentQuestion == totQuestions - 1){
-    nextButton.textContent ='End The Quiz';
+    nextButton.textContent ='Finish';
     }
     if(currentQuestion == totQuestions){
     container.style.display='none';
     resultCont.style.display= '';
-    resultCont.textContent= 'Your score is' + ':' + score;
+    resultCont.textContent= 'Your score is' + ':'  + score + "/5";
+    
     return;
     }
     loadQuestion(currentQuestion);
+   
 }
 loadQuestion(currentQuestion);
+
+
+(function showelements(){
+    var submit=document.getElementsByClassName('hidden')
+    submit.classList.remove('hide');
+    return;
+})();
+
 
 
 
